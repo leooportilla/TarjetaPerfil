@@ -1,35 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Icono de vestana -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Titulo de vestana -->
+  <title>Presentacion</title>
+
+  <!-- Enlace -->
+  <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <!-- Tarjeta -->
+  <main class="Tarjeta">
 
-  80K
-  Followers
+    <!-- Imagen de la Tarjeta -->
+    <img class="ImagenFondo" src="./images/patterncard.svg" alt="Fondo de Tarjeta">
 
-  803K
-  Likes
+    <!-- Presentacion -->
+    <article>
+      <img class="ImagenPerfil" src="./images/perfil.jpg" alt="Foto Perfil">
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <div class="NombreEdad">
+        <h1 class="Nombre">Victor Crest</h1>
+        <h1 class="Edad">26</h1>
+      </div>
+
+      <p class="Ubicacion">London</p>
+    </article>
+
+    <!-- Estadisticas -->
+    <article class="EstadisticaContainer">
+      <div class="Estadisticas">
+        <h1 class="Subtitulos">80K</h1>
+        <h2 class="Origen">Followers</h2>
+      </div>
+
+      <div class="Estadisticas">
+        <h1 class="Subtitulos">803K</h1>
+        <h2 class="Origen">Likes</h2>
+      </div>
+
+      <div class="Estadisticas">
+        <h1 class="Subtitulos">1.4K</h1>
+        <h2 class="Origen">Photos</h2>
+      </div>
+    </article>
+  </main>
+
+  <!--   Autores  -->
+  <footer class="Atributos">
+    <h2 class="Autor">Challenge by</h2>
+    <a class="Autor Enlace" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    <h2 class="Autor">Coded by</h2>
+    <a class="Autor Enlace" href="https://www.frontendmentor.io/profile/leooportilla" target="_blank">Leonardo Portilla</a>
+  </footer>
 </body>
 </html>
